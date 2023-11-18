@@ -6,4 +6,10 @@
 		height_index="1"
 		color="ffebaaaa" >
 	</Biome>
+	<Biome 
+		biome_filename="mods/NoitaEscapeRoom/files/biome/block.xml" 
+		height_index="1"
+		color="ff0A0A0A" >
+	</Biome>
+	
 </BiomesToLoad>
