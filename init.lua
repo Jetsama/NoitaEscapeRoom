@@ -33,6 +33,9 @@ end
 ]]--
 
 function OnMagicNumbersAndWorldSeedInitialized() -- this is the last point where the Mod* API is available. after this materials.xml will be loaded.
+	GameAddFlagRun("no_progress_flags_perk")
+    GameAddFlagRun("no_progress_flags_action")
+    GameAddFlagRun("no_progress_flags_animal")
 	local x = ProceduralRandom(0,0)
 	print( "===================================== random " .. tostring(x) )
 end
@@ -45,4 +48,4 @@ ModRegisterAudioEventMappings( "mods/example/files/audio_events.txt" ) -- Use th
 ModMaterialsFileAdd( "mods/example/files/materials_rainbow.xml" ) -- Adds a new 'rainbow' material to materials
 ModLuaFileAppend( "data/scripts/items/potion.lua", "mods/example/files/potion_appends.lua" )
 
---print("Example mod init done")
+print("Escape Room mod init done")

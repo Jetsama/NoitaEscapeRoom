@@ -1,5 +1,6 @@
 <MagicNumbers 
   VIRTUAL_RESOLUTION_X="427" 
-  VIRTUAL_RESOLUTION_Y="242" 
+  VIRTUAL_RESOLUTION_Y="242"
+  BIOME_MAP="mods/NoitaEscapeRoom/mainmap.png"></MagicNumbers>
   > <!-- some magic number defaults could be overridden here -->
 </MagicNumbers>

@@ -1,6 +1,6 @@
 <Mod
-	name="Example mod"
-	description="This is an example mod for Noita.\nHave fun modding!"
+	name="Noita Escape Room"
+	description="Escape if you can brave Noita!"
 	request_no_api_restrictions="0" 
 > 
 </Mod>
